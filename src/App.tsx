@@ -5,6 +5,7 @@ import { CountDown } from './components/CountDown';
 import { DefaultInput } from './components/DefaultInput';
 import { Cycles } from './components/Cycles';
 import { DefultButton } from './components/DefaultButton';
+import { Footer } from './components/Footer';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -40,9 +41,13 @@ function App() {
                     </div>
 
                     <div className="formRow">
-                        <DefultButton color='green' icon={<PlayCircleIcon />} />
+                        <DefultButton icon={<PlayCircleIcon />} />
                     </div>
                 </form>
+            </Container>
+
+            <Container>
+                <Footer />
             </Container>
         </>
     );
